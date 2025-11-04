@@ -30,3 +30,17 @@ p {
   grid-column: 2;
   justify-self: center;
 }
+@font-face {
+  font-family: 'MiFuente';
+  src: url(Recursos/MrPixel.ttf) format('truetype');
+}
+
+body {
+  font-family: 'MiFuente', sans-serif;
+}
+.oculto {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+}
+
